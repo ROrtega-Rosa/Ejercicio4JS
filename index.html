@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="contenedor">
+        <h1>Ingreso en la cuenta</h1>
+        <form action=""  id="formulario" method="post" enctype="">
+           
+            <div class="row">
+                <div class="col">
+                       
+    
+            <label for="titular">Titular</label>
+                <input type="text" id="titular" name="titular" placeholder="" required> 
+                <label for="cantidad">Cantidad: </label>
+                <input type="text" id="cantidad" name="cantidad" placeholder="">  
+                
+            </div>
+            <div class="col">    
+            
+               
+            <div class="row">
+            <button type="button"  name="ingresar" id="ingresar" >Ingresar</button>
+            <button type="button"  name="obtener" id="obtener" >Retirar</button>
+           
+             </div>
+             <div class="row">
+                <button type="button"  name="datos" id="datos" >Datos</button>
+                <button type="reset" name="reset" id="reset">Limpiar</button>
+             </div>
+        </form>
+        <div class="row" id="resultado"></div>
+       
+        
+    </div>
+    <script type="module" src="../js/main.js"></script>
+</body>
+</html>

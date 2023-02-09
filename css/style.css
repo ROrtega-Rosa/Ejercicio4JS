@@ -1,0 +1,89 @@
+body{
+
+
+    background-color:rgb(112, 200, 216);
+}
+.row{
+
+    display:flex;
+    justify-content: center;
+    
+}
+.col{
+
+    max-width: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    padding: 1em;
+}
+.contenedor{
+    max-width: 500px;  
+    margin: auto;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+}
+input{
+
+    margin: 5px;
+}
+
+select{
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+label{
+    margin-top: 5px;
+    font-style:initial;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form{
+    
+    border: 5px;
+    border-style: double;
+    border-color: red;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+.image-upload > input {
+
+    display: none;
+}
+
+.image-upload img {
+
+    width: 100px;
+    cursor: pointer;
+}
+
+span{
+
+
+    color:red
+}
+
+.ocultar{
+
+    
+     display:none;
+}
+#resultado{
+    background-color: white;
+   
+}
